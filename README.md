@@ -9,14 +9,14 @@ Plataforma institucional y sistema privado de gestión deportiva para la Academi
 - Sitio institucional responsive con identidad visual oficial.
 - Categorías, cuerpo técnico, horarios, noticias y canales de contacto alimentados desde Supabase.
 - Autenticación administrativa sin registro público.
-- MFA TOTP obligatorio para acceder a información privada.
+- Acceso administrativo protegido por autenticación, roles y RLS.
 - Registro, consulta, filtrado, archivado e importación/exportación CSV de jugadores.
 - Tutores, consentimientos, temporadas, categorías e historial de inscripciones.
 - Documentación privada en Supabase Storage con enlaces temporales.
 - Ficha A4 en PDF.
 - CMS para noticias, cuerpo técnico, horarios y configuración institucional.
 - Auditoría de movimientos sensibles.
-- RLS en todas las tablas expuestas y acceso privado condicionado a rol + `aal2`.
+- RLS en todas las tablas expuestas y acceso privado condicionado a un rol administrativo activo.
 
 ## Desarrollo local
 
