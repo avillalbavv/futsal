@@ -51,8 +51,8 @@ $$;
 
 revoke all on function private.is_admin() from public;
 revoke all on function private.is_super_admin() from public;
-grant usage on schema private to authenticated;
-grant execute on function private.is_admin() to authenticated;
+grant usage on schema private to anon, authenticated;
+grant execute on function private.is_admin() to anon, authenticated;
 grant execute on function private.is_super_admin() to authenticated;
 
 create table public.categories (
