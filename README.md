@@ -2,6 +2,8 @@
 
 Plataforma institucional y sistema privado de gestión deportiva para la Academia de Futsal Piribebuy.
 
+**Producción:** [academia-futsal-piribebuy.pages.dev](https://academia-futsal-piribebuy.pages.dev)
+
 ## Funcionalidades incluidas
 
 - Sitio institucional responsive con identidad visual oficial.
