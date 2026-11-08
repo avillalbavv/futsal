@@ -1,0 +1,13 @@
+create index if not exists consents_player_id_idx on public.consents (player_id);
+create index if not exists consents_guardian_id_idx on public.consents (guardian_id);
+create index if not exists consents_evidence_document_id_idx on public.consents (evidence_document_id);
+create index if not exists enrollments_created_by_idx on public.enrollments (created_by);
+create index if not exists enrollments_season_id_idx on public.enrollments (season_id);
+create index if not exists gallery_images_album_id_idx on public.gallery_images (album_id);
+create index if not exists news_author_id_idx on public.news (author_id);
+create index if not exists player_documents_uploaded_by_idx on public.player_documents (uploaded_by);
+create index if not exists player_guardians_guardian_id_idx on public.player_guardians (guardian_id);
+create index if not exists players_created_by_idx on public.players (created_by);
+create index if not exists site_pages_updated_by_idx on public.site_pages (updated_by);
+create index if not exists site_settings_updated_by_idx on public.site_settings (updated_by);
+create index if not exists training_schedules_category_id_idx on public.training_schedules (category_id);
